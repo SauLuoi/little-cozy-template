@@ -32,3 +32,27 @@ Template
   - home.html
   - shop.html
   -....(các page template)
+  
+  
+  
+  
+  
+  - Khi bắt đầu làm
+  B1: git pull ở branch main
+  B2: git checkout -b "name branch"
+  B3: bắt đầu làm
+  
+  
+  - Khi push code
+  B1: git add
+  B2: git status ( check file commit) - có thể bỏ qua nếu đã chắc các file commit
+  B3: git commit -m "your comment"
+  B4: git push
+  
+  - Sau khi push
+  B1: lên git, tạo pull request
+  B2: fix conflic ( Nếu conflic)
+  B3: Đợi megerd
+  
+  
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
