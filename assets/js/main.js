@@ -56,6 +56,7 @@ $(document).ready(function () {
         speed: 300,
         arrows: false,
         autoplay: true,
+        pauseOnHover: true,
     });
 
     $('.home-slide .home-slide_list').slick({
@@ -67,6 +68,8 @@ $(document).ready(function () {
         slidesToScroll: 1,
         slidesToShow: 3,
         autoplaySpeed: 3000,
+        pauseOnHover: true,
+        useTransform: true,
         responsive: [
             {
                 breakpoint: 1024,

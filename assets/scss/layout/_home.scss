@@ -126,6 +126,7 @@
 
   &-slide {
     padding: 100px 0;
+
     .slick-dots {
       justify-content: center;
       margin-top: 35px;
@@ -133,7 +134,9 @@
 
     &_list {
       .item {
+        margin: 0 40px;
         img {
+          width: 100%;
         }
       }
     }
