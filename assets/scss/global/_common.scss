@@ -5,6 +5,11 @@
   font-size: 18px;
   color: $text-primary;
   font-family: $tillana;
+  line-height: 2.7rem;
+
+  @media screen and (max-width: 575px) {
+    font-size: 10px;
+  }
 
   p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
@@ -36,9 +41,18 @@
     letter-spacing: 2px;
   }
 
+  .heading-arvo {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    font-family: $arvo;
+    font-weight: bold;
+    letter-spacing: .2px;
+  }
+
   .btn-primary {
     background-color: $bg-primary;
-    color: $white;
+    color: rgba(0, 0, 0, 0.85);
     border: solid 1px $bg-primary;
     border-radius: 15px;
     font-size: 32px;
@@ -47,11 +61,25 @@
     margin: 0 auto;
     display: block;
 
-    &:hover {
-      background-color: $white;
-      color: $text-title-primary;
-      border: solid 1px $bg-primary;
+    &:hover, &:focus, &:active, &:focus-visible {
+      background-color: $white !important;
+      color: rgba(0, 0, 0, 0.85) !important;
+      border: solid 1px $bg-primary !important;
+      box-shadow: 0 0 0 0.2rem $bg-primary;
     }
+  }
+
+  .border-left {
+    border-left: solid 2px #000000 !important;
+  }
+
+  .border-bottom {
+    border-bottom: solid 2px #000000 !important;
+  }
+
+  .py-6 {
+    padding-top: 5rem !important;
+    padding-bottm: 5rem !important;
   }
 
 }
