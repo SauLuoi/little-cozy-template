@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 16px;
   color: $text-primary;
   font-family: $tillana;
   line-height: 2.7rem;
@@ -31,6 +31,38 @@
 
   .bg-third {
     background-color: $bg-third;
+  }
+
+  .bg-position-left {
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: #F0E9DC;
+      border-radius: 0 100px 100px 0;
+      max-width: 70%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  .bg-position-right {
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: #F0E9DC;
+      border-radius: 100px 0 0 100px;
+      max-width: 70%;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
   }
 
   .heading-sacramento {

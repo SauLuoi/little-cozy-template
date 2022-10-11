@@ -1,0 +1,27 @@
+.form-contact {
+  max-width: 752px;
+  margin: 0 auto;
+
+  input, textarea {
+    border-radius: 25px;
+    box-shadow: none;
+    border: solid 3px $active;
+    display: block;
+    width: 100%;
+    padding: 8px 18px;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+    font-family: $tillana;
+
+    &::placeholder {
+      color: $active;
+    }
+  }
+
+  button[type="submit"] {
+    max-width: 361px;
+    display: block;
+    width: 100%;
+    color: $white;
+  }
+}

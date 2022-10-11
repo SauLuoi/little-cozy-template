@@ -50,6 +50,7 @@ function scrollX() {
 }
 
 $(document).ready(function () {
+    //home
     $('.home-overview_galley .galley').slick({
         infinite: true,
         dots: true,
@@ -90,5 +91,16 @@ $(document).ready(function () {
                 }
             }
         ]
+    });
+
+    //shop
+    $('.shop .shop-banner').slick({
+        infinite: true,
+        dots: false,
+        speed: 300,
+        arrows: false,
+        autoplay: true,
+        pauseOnHover: true,
+        autoplaySpeed: 3000,
     });
 });
