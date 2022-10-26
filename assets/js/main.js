@@ -103,4 +103,16 @@ $(document).ready(function () {
         pauseOnHover: true,
         autoplaySpeed: 3000,
     });
+
+
+    //login
+
+    $('.login .show').click(function () {
+        var typeInput = $('#pwd').attr('type');
+        if(typeInput === 'password') {
+            $('#pwd').attr('type','text');
+        } else {
+            $('#pwd').attr('type','password');
+        }
+    });
 });

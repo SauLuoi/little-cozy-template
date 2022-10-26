@@ -64,5 +64,6 @@
 }
 
 .l-header-scroll {
-  background: #0000005c;
+  background: $white;
+  box-shadow: 0 0 25px $bg-primary;
 }

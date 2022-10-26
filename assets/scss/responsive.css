@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+  .login {
+    width: 90%; }
+    .login .buttons {
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column; }
+      .login .buttons span {
+        width: 100%; }
+        .login .buttons span a {
+          width: 100%;
+          line-height: 40px; } }
+@media screen and (max-width: 575px) {
+  .login {
+    width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0; } }
+
+/*# sourceMappingURL=responsive.css.map */

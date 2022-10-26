@@ -1,0 +1,58 @@
+$xxl: 1200px;
+$xl: 1024px;
+$md: 999px;
+$sm: 767px;
+$xs: 575px;
+
+
+@media screen and (max-width: $xxl) {
+
+}
+
+// end screen xxl
+
+@media screen and (max-width: $xl) {
+
+}
+
+// end screen xl
+
+@media screen and (max-width: $md) {
+
+}
+
+// end screen md
+
+@media screen and (max-width: $sm) {
+  .login {
+    width: 90%;
+
+    .buttons {
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column;
+
+      span {
+        width: 100%;
+
+        a {
+          width: 100%;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}
+
+// end screen xm
+
+@media screen and (max-width: $xs) {
+  .login {
+    width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+
+//end screen xs
